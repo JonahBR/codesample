@@ -52,7 +52,7 @@ private void Update()
         }
     }
 
-    // Check if the synchronizer is ready before executing the unit's behavior
+    // Check if the synchronizer is ready before executing
     if (!unitsReady && unitSynchronizer.IsReady())
     {
         unitsReady = true;
